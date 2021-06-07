@@ -1,5 +1,5 @@
 import React from 'react'
-import FMLogo from "../assets/Component_1.png"
+import FMLogo from "../../assets/Component_1.png"
 import "./main.css"
 
 const Main = () => {
@@ -44,4 +44,4 @@ const Main = () => {
     )
 }
 
-export default Main
+export default Main;

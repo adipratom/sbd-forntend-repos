@@ -1,17 +1,14 @@
 import styled from "styled-components"
 import bgImg from "../assets/Frame_1.png"
-import Main from "./Main"
+import Main from "./mainpage/Main"
 
 const App = () => {
-    return ( <
-        Container >
-        <
-        Wrapper >
-        <
-        Main / >
-        <
-        /Wrapper> <
-        /Container>
+    return (
+       <Container>
+        <Wrapper>
+        <Main/>
+        </Wrapper> 
+        </Container>
     );
 };
 
