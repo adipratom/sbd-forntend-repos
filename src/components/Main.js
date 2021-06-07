@@ -16,7 +16,6 @@ const Main = () => {
                     </span>
                 </div>
             </div>
-            <span> p</span>
             <div class="split right">
                 <div class="centered2">
                     <div className="LoginPop">
@@ -24,19 +23,22 @@ const Main = () => {
                         <form method="post">
                             <div class="txt_field">
                                 <input type="text" required />
-                                <span></span>
-                                <label>username</label>
+                                <label>USERNAME</label>
                             </div>
                             <div class="txt_field">
                                 <input type="password" required />
-                                <span></span>
-                                <label>password</label> 
+                                <label>PASSWORD</label> 
                             </div>
                             <div class="pass">Don't have an account?</div>
-                            <input type="image" src="https://i.ibb.co/M8bpJzM/Component-2.png" alt="submit"></input>
+                            <div className="submitButton">
+                                <input type="image" src="https://i.ibb.co/M8bpJzM/Component-2.png" alt="submit"></input>
+                            </div>
                         </form>
                     </div>
                 </div>
+            </div>
+            <div className="aboutUs">
+                about us
             </div>
         </span>
     )
