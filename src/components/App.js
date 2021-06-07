@@ -3,16 +3,19 @@ import bgImg from "../assets/Frame_1.png"
 import Main from "./Main"
 
 const App = () => {
-  return (
-    <Container>
-      <Wrapper>
-        <Main />
-      </Wrapper>
-    </Container>
-  );
+    return ( <
+        Container >
+        <
+        Wrapper >
+        <
+        Main / >
+        <
+        /Wrapper> <
+        /Container>
+    );
 };
 
-const Container = styled.div`
+const Container = styled.div `
   backgroud: #EEFCFF;
   position: absolute;
   top: 0;
@@ -21,7 +24,7 @@ const Container = styled.div`
   bottom: 0;
 `;
 
-const Wrapper = styled.div`
+const Wrapper = styled.div `
   background-image: url(${bgImg});
   background-position: center;
   background-size: cover;
