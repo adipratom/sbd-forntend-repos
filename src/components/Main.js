@@ -30,7 +30,7 @@ const Main = () => {
                             <div class="txt_field">
                                 <input type="password" required />
                                 <span></span>
-                                <label>password</label> 
+                                <label>passwords</label> 
                             </div>
                             <div class="pass">Don't have an account?</div>
                             <input type="image" src="https://i.ibb.co/M8bpJzM/Component-2.png" alt="submit"></input>
